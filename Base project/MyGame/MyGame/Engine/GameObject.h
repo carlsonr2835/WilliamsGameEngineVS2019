@@ -28,6 +28,7 @@ public:
 	// The more game objects in the scene that need to be checked, the longer it takes.
 	bool isCollisionCheckEnabled();
 	void setCollisionCheckEnabled(bool isCollisionCheckEnabled);
+	//void setCollisionCheckEnabled(bool isCollisionCheckEnabled);
 
 	// This function lets you specify a rectangle for collision checks.
 	virtual sf::FloatRect getCollisionRect() { return sf::FloatRect(); }

@@ -88,6 +88,16 @@
     <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="MyGame.cpp" />
+    <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="Meteor.cpp" />
+    <ClCompile Include="MeteorSpawner.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="GameOverMessage.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
+    <ClCompile Include="Lives.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="Ship.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h" />
@@ -96,9 +106,33 @@
     <ClInclude Include="Engine\GameObject.h" />
     <ClInclude Include="Engine\Scene.h" />
     <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Laser.h" />
+    <ClInclude Include="Meteor.h" />
+    <ClInclude Include="MeteorSpawner.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="GameOverMessage.h" />
+    <ClInclude Include="GameOverScene.h" />
+    <ClInclude Include="Lives.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="Ship.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\background.png" />
+    <Image Include="Resources\explosion-spritesheet.png" />
+    <Image Include="Resources\laser.png" />
+    <Image Include="Resources\meteor.png" />
+    <Image Include="Resources\ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\boom.wav" />
+    <Media Include="Resources\Cartoon-warp-01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Courneuf-Regular.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

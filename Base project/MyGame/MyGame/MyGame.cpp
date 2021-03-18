@@ -1,10 +1,11 @@
 #include "Engine/GameEngine.h"
 #include "GameScene.h"
+using namespace std;
 
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
 
-const std::string WINDOW_TITLE = "Monkey";
+const string WINDOW_TITLE = "Ryan's game (Better than any other game)";
 
 int main()
 {
@@ -15,7 +16,7 @@ int main()
 	GAME.initialize(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_TITLE);
 
 	// Create our scene.
-	GameScenePtr scene = std::make_shared<GameScene>();
+	GameScenePtr scene = make_shared<GameScene>();
 	GAME.setScene(scene);
 
 	// Run the game loop.
